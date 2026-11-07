@@ -1,0 +1,9 @@
+{
+  "experiment": "Composed Attack on Django Independent Corpus",
+  "dataset": "Django 5.0",
+  "sample_size": 50,
+  "attacks": ["rename", "strip_comments", "dead_code"],
+  "astmark_auc": 0.500,
+  "bootstrap_95_ci": [0.500, 0.500],
+  "notes": "AUC collapsed to random chance under composed adversarial attack."
+}
